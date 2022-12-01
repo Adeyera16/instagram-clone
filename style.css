@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+.section1{
+    width: 250px;
+    border-right: 1px solid rgb(197, 194, 194);
+    font-size: 20px;
+    height: auto;
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+.instagram-logo{
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+.more{
+    margin-top: 15px;
+    margin-left: 22px;
+}
+.more svg{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.more span{
+    padding: 10px;
+}
+.nav_barul svg, img{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+
+}
+.nav_barul img{
+    border-radius: 50%;
+}
+.nav_barul li {
+    list-style-type: none;
+    padding: 12px;
+    margin-left: 20px;
+
+}
+.nav_barul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.stories{
+    display: flex;
+    border: 1px solid rgb(196, 193, 193);
+    width: 450px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.stories1{
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgb(233, 89, 80);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.stories p{
+    /* margin-right: 25px; */
+    padding-left: 10px;
+}
+.profilepics{
+    width: 450px;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: space-between;
+    padding: 20px;
+}
+.profilepics span{
+    display: flex;
+}
+.profilepics p{
+    margin-top: 8px;
+    padding: 5px;
+}
+.profilepics img{
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(233, 89, 80);
+    border-radius: 50%;
+}
+.feed_image{
+    width: 450px;
+    height: 500px;
+}
+.section2{
+    margin-left: 60px;
+    padding: 20px;
+}
+.section2 svg{
+    width: 50px;
+    height: 35px;
+    background: white;
+    margin-right: 10px;
+}
+.likedareaa{
+    padding: 15px;
+}
+.liked_area{
+    display: flex;
+    justify-content: space-between;
+}
+.liked_area img{
+    width: 28px;
+    height: 30px;
+    margin-top: 10px;
+}
+.image1{
+    width: 452px;
+    border: 1px solid rgb(183, 180, 180);
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.liked_profile{
+    line-height: 1.5;
+    /* padding: 5px; */
+    padding: 0 10px 10px 0;
+}
+.liked_profile img{
+    width: 20px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.liked_profile .caption{
+    font-size: 13px;
+    color: grey;
+}
+.comment-area{
+    display: flex;
+    padding: 10px 10px 10px 0;
+    margin-right: 20px;
+}
+.comment-area p{
+    margin-top: 10px;
+    color: gray;
+}
+.comment-area span{
+    margin-top: 10px;
+    margin-left: 150px;
+    color: rgb(57, 57, 105);
+}
+.image2{
+    width: 460px;
+    border: 1px solid black; 
+    padding: 5px;
+}
+.lizzys_profile{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.lizzys_profile div{
+    display: flex;
+}
+
+.lizzys_profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.lizzys_profile span{
+    padding-left: 10px;
+}
+.lizzys_profile span .adeyera{
+    color: gray;
+    margin-top: 0;
+}
+.lizzys_profile span .adeyera1{
+    color: black;
+    font-weight: bold;
+}
+.lizzys_profile p{
+    color: blue;
+    margin-top: 10px;
+}
+.suggestions{
+    width: 300px; ;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 20px 0;
+}
+.suggestions h3{
+    color: gray;
+}
+.suggestions p{
+    text-transform: capitalize;
+}
+.suggestion_image{
+    width: 300px;
+}
+.suggestion_image img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+ .suggestion_image1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+} 
+.suggestion_image1 div{
+    display: flex;
+}
+.suggestion_text1{
+    font-weight: bold;
+}
+.suggestion_text2{
+    color: gray;
+}
+.suggestion_text3{
+    color: blue;
+}
+.suggestion_image1 span{
+    padding-left: 10px;
+}
+.section3{
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.footer_ul{
+    width: 300px;
+    color: rgb(193, 188, 188);
+    font-size: 15px;
+}
+.footer_ul ul{
+    display: flex;
+}
+.footer_ul ul li{
+    list-style-type: none;
+    padding: 2px;
+    color: rgb(183, 182, 182);
+}
+.copyright{
+    margin: 10px 0 10px 0;
+}
